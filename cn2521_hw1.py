@@ -3,7 +3,7 @@
 def check(userInput, userOutput):
     print("input is: " + str(userInput))
     print("output is: " + str(userOutput))
-    ans = ""
+    ansFunction = ""
     if userInput != 0 and userOutput != 0 and userOutput % userInput == 0:
       ansFunction = ("*"+str(userOutput/userInput))
       print(ansFunction)
